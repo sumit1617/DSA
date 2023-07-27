@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    int a = 4;
+    int a = -6;
     int b = 6;
 
     cout << "a & b : " << (a&b) << endl;
