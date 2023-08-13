@@ -8,7 +8,11 @@ void swapAlternate(int arr[], int n){
     int end = start+1;
 
     while(end<n){
-        swap(arr[start], arr[end]);
+
+        int temp = arr[end];
+        // swap(arr[start], arr[end]);
+        arr[end] = arr[start];
+        arr[start] = temp;
         start += 2;
         end += 2;
     }
