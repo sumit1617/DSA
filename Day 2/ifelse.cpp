@@ -7,7 +7,7 @@ int main(){
 
     cout << "Value of a : ";
     cin >> a;
-    cout << "Value of b : ";
+    cout << "Value of b : "; 
     cin >> b;
 
     if (a>b){
